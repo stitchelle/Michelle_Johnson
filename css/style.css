@@ -839,7 +839,7 @@ body {
 
 /* 5.3 My Service */
 .kayo-service {
-  background: url("../images/bg1.jpg") center center no-repeat fixed;
+  background: url("../images/uploads/MJHeadshot2.png") center center no-repeat fixed;
   background-size: cover;
 }
 .kayo-service .kayo-container {
@@ -1874,7 +1874,7 @@ body {
 
 /* 9.3 Contact Form */
 .contact-form {
-  background: url("../images/contact.jpg") center bottom no-repeat fixed;
+  background: url("../images/uploads/prettypic.png") center bottom no-repeat fixed;
   background-size: cover;
 }
 .contact-form .kayo-container {

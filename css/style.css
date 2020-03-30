@@ -1295,6 +1295,14 @@ body {
   transform: rotateY(180deg);
 }
 
+.port-box .container .mrkayo-main-title h2 {
+  margin-top: 60px;
+}
+
+.portfolio .grid-item{
+  margin-bottom: 60px;
+}
+
 /* 7. Resume
 ================================= */
 .resume .kayo-container {

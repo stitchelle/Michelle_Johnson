@@ -439,9 +439,9 @@ body {
   transition: all 0.5s ease-in-out 0s;
 }
 
-.main-page-content > section {
+/* .main-page-content > section {
   padding: 25px 0;
-}
+} */
 
 .section-intro .kayo-icon-box-container {
   padding: 30px;
@@ -498,7 +498,7 @@ body {
 }
 .kayo-icon-list-box .kayo-list-info p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 0.7px;
   line-height: 24px;
   font-weight: 300;
@@ -1873,7 +1873,7 @@ body {
 }
 
 /* 9.3 Contact Form */
-.contact-form {
+.portfolio {
   background: url("../images/uploads/prettypic.png") center bottom no-repeat fixed;
   background-size: cover;
 }
@@ -2367,7 +2367,8 @@ body {
   width: 100%;
   overflow: hidden;
 }
-.sakura-demo2 .main-page-content > section, .sakura-demo2 .main-page-content > div,
+/* .sakura-demo2 .main-page-content > section,  */
+.sakura-demo2 .main-page-content > div,
 .sakura-demo2 .main-page-content .overlay {
   padding: 120px 0;
 }

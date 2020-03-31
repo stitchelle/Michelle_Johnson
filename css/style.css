@@ -833,7 +833,7 @@ body {
   border-bottom: 1px solid #3a4a5d;
   margin-bottom: 15px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   font-style: italic;
 }
 
@@ -848,6 +848,12 @@ body {
 }
 .kayo-service .kayo-icon-list-box {
   margin-bottom: 30px;
+}
+
+.kayo-icon-list-box span img {
+  height: 55px; 
+  width: 55px;
+  margin-top: 12px;
 }
 
 /* 5.4 Client */

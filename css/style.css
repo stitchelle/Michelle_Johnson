@@ -482,6 +482,7 @@ body {
 }
 .kayo-icon-list-box .kayo-list-info {
   padding: 60px 15px 15px;
+  min-height: 270px;
   overflow: hidden;
   -webkit-transition: all 0.25s ease-in-out 0s;
   -moz-transition: all 0.25s ease-in-out 0s;

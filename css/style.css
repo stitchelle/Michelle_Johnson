@@ -498,7 +498,7 @@ body {
   margin: 20px 0 13px;
   font-weight: 600;
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 415px) {
   .kayo-icon-list-box 
   {
     font-size: 12px;
@@ -537,7 +537,7 @@ body {
 }
 
 .app-screenshot {
-  max-width: 300px;
+  max-width: 250px;
   border: lightgrey;
   border-style: solid;
   border-width: 1px;
@@ -546,13 +546,53 @@ body {
   margin-right: 0px;
 }
 
-.modal-title {
-  color: black;
-  font-weight: 700;
+.modal {
+  min-width: 80%;
+  min-height: 80%;
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.modal-body h4 {
+@media screen and (min-width: 770px){
+  .modal-title {
+    font-weight: 700;
+    padding-right: 3%;
+  }
+
+  .modal-header {
+    color: black;
+    display: flex;
+  }
+
+  .close {
+    align-items: flex-end;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .modal-title {
+    font-weight: 700;
+  }
+
+  .modal-header {
+    color: black;
+  }
+}
+
+
+.modal-body {
   color: black;
+}
+
+.app-description {
+  margin-bottom: 25px;
+}
+
+.modal-footer a {
+  float: left;
 }
 
 /* 3. aside

@@ -536,6 +536,25 @@ body {
   padding: 90px 0;
 }
 
+.app-screenshot {
+  max-width: 300px;
+  border: lightgrey;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  margin: 20px;
+  margin-right: 0px;
+}
+
+.modal-title {
+  color: black;
+  font-weight: 700;
+}
+
+.modal-body h4 {
+  color: black;
+}
+
 /* 3. aside
 ================================= */
 .kayo-aside {

@@ -567,8 +567,8 @@ body {
     display: flex;
   }
 
-  .close {
-    align-items: flex-end;
+  .modal-header .close {
+    padding-left: 50%;
   }
 }
 

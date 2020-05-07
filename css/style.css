@@ -537,7 +537,7 @@ body {
 }
 
 .app-screenshot {
-  max-width: 250px;
+  max-height: 350px;
   border: lightgrey;
   border-style: solid;
   border-width: 1px;
@@ -556,32 +556,18 @@ body {
   transform: translate(-50%, -50%);
 }
 
-@media screen and (min-width: 770px){
-  .modal-title {
-    font-weight: 700;
-    padding-right: 3%;
-  }
-
-  .modal-header {
-    color: black;
-    display: flex;
-  }
-
-  .modal-header .close {
-    padding-left: 50%;
-  }
+.modal-title {
+  font-weight: 700;
+  padding-right: 3%;
 }
 
-@media screen and (max-width: 415px) {
-  .modal-title {
-    font-weight: 700;
-  }
-
-  .modal-header {
-    color: black;
-  }
+.modal-header {
+  color: black;
 }
 
+/* .modal-header .close {
+  padding-left: 50%;
+} */
 
 .modal-body {
   color: black;

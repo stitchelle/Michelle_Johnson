@@ -536,7 +536,7 @@ body {
   padding: 90px 0;
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 770px) {
   .app-screenshot {
     max-height: 350px;
     max-width: 250px;
